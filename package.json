@@ -1,0 +1,36 @@
+{
+  "name": "configyour",
+  "description": "Simple directory and file based configuration using json and yaml",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattinsler/configyour",
+  "author": {
+    "name": "Matt Insler",
+    "email": "matt.insler@gmail.com",
+    "url": "http://www.mattinsler.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mattinsler/configyour.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattinsler/configyour/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mattinsler/configyour/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "dist/configyour",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "yaml": "~0.2.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15",
+    "grunt-contrib": "~0.3.0"
+  },
+  "keywords": []
+}
